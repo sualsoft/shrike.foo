@@ -1,0 +1,21 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Shrink Foo'
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[params]
+  # Favicon (place your favicon.ico file in the static directory)
+  favicon = "/assets/img/favicon.png"
+  apple_touch_icon = "/assets/img/apple-touch-icon.png"
+  logo = "/assets/img/logo.png"
+
+  # Colors
+  primaryColor = "#4d347a"
+  hoverColor = "#41227a"
+  secondaryColor = "#fc9518"
