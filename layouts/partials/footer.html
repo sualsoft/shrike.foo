@@ -1,5 +1,17 @@
 <footer id="footer">
   <div class="container">
+    <!--Social Icons-->
+    <div class="social-media">
+      <ul>
+        {{ range .Site.Params.social }}
+        <li>
+          <a href="{{ .link }}"><i class="{{ .icon }}"></i></a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <!--Bottom-->
     <div class="copyright">
       &copy; Copyright <strong><span>Shrike Foo</span></strong
       >. All Rights Reserved
@@ -11,8 +23,10 @@
 </footer>
 
 <script>
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  );
   var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-  })
-  </script>
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+</script>
