@@ -42,21 +42,9 @@
 
   <style>
     :root {
-      --primary-color: {
-         {
-          .Site.Params.primaryColor;
-        }
-      }
-      --hover-color: {
-         {
-          .Site.Params.hoverColor;
-        }
-      }
-      --secondary-color: {
-         {
-          .Site.Params.secondaryColor;
-        }
-      }
+      --primary-color: {{ .Site.Params.primaryColor }};
+      --hover-color: {{ .Site.Params.hoverColor }};
+      --secondary-color: {{ .Site.Params.secondaryColor }};
     }
   </style>
 </head>

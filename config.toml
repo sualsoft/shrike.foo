@@ -58,15 +58,22 @@ category = "categories"
     parent ="fun_tuff"
     identifier = "page_1"
     name = "Page 1"
-    url = "/page-1"
+    url = "/fun-tuff/blog-1"
     weight = 1
 
 [[menu.main]]
     parent ="fun_tuff"
     identifier = "page_2"
     name = "Page 2"
-    url = "/page-2"
+    url = "/fun-tuff/blog-2"
     weight = 2
+
+[[menu.main]]
+    parent ="fun_tuff"
+    identifier = "page_3"
+    name = "Page 3"
+    url = "/fun-tuff/blog-3"
+    weight = 3
 
 [[menu.main]]
     identifier = "resources"
