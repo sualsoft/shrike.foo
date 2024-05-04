@@ -405,7 +405,10 @@ h6 {
   flex-direction: column;
   gap: 1rem;
 }
-
+#hero article span {
+  font-weight: 700;
+  border-bottom: #141611 dotted 1px;
+}
 #hero article a {
   color: var(--secondary-color);
 }
@@ -431,7 +434,7 @@ h6 {
 .blog .card .content {
   padding: 2rem 1rem;
 }
-.blog  h3 {
+.blog h3 {
   font-size: 24px;
   font-weight: bold;
 }
