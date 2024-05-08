@@ -19,6 +19,7 @@ category = "categories"
   primaryColor = "#4d347a"
   hoverColor = "#41227a"
   secondaryColor = "#fc9518"
+  tooltipColor = "#fc9518"
 
   # Social links
   [[params.social]]
