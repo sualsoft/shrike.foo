@@ -1,6 +1,6 @@
 ---
 title: About ud
-layout: single
+layout: single2
 ---
 
 # About Us

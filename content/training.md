@@ -1,5 +1,6 @@
 ---
 title: Training
+layout: single2
 ---
 
 # Training Info

@@ -6,8 +6,8 @@ title = 'Shrink Foo'
   defaultMarkdownHandler = "goldmark"
 
 [taxonomies]
-tag = "tags"
-category = "categories"
+  category = "categories"
+  tag = "tags"
 
 [params]
   # Favicon (place your favicon.ico file in the static directory)
